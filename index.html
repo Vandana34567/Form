@@ -7,31 +7,49 @@
 
 
 </head>
-    <style>
+<style>
     h2{
-        text-align: center;
+       
         border: 2px solid black;
         background-color: lightsalmon;
+       
+    }
+    #one{
+        text-align: center;
+        margin-left: 40%;
+        margin-right: 40%;
     }
      a:hover{
+        
         background-color: brown;
     }
     a{
         border: 2px solid orange;
         text-decoration: none;
         border-radius: 10px;
+        font-size: 30px;
+        margin-left: 45%;
+        margin-right: 40%;
     }
     legend{
         color: black;
         background-color: pink;
     }
+    .aa{
+margin-left: 200px;
+margin-right: 200px;
+background-color: lightblue;
+
+    }
+    
     
 </style>
 
 <body>
-    <h2>STUDENT DETAILS</h2>
-<form action="message.html" style="font-family: 'Times New Roman';border: 2px solid blue; color: black; background-color: lightgoldenrodyellow;">
-        <fieldset>
+          <h2 id="one">Student Details</h2>
+    <form action="message.html" style="font-family: 'Times New Roman'; color: black;">
+    
+        <fieldset class ="aa">
 
             <legend>PERSONAL DETAILS</legend>
             <label for="fname">First Name</label>
@@ -44,10 +62,10 @@
             <input type="date" id="dob" name="dob"> <br><br>
 
             <label for="emaile">Email</label>
-            <input type="email" id="email" name="email"> <br><br>
-        </fieldset>
+            <input type="email" id="email" name="email"> <br><br><br>
+        </fieldset><br>
 
-        <fieldset>
+        <fieldset class = "aa">
             <legend>EDUCATIONAL DETAILS</legend>
 
             <label for="">Department</label><br><br>
@@ -89,11 +107,16 @@
             <input type="checkbox" name="js" id="js">
             <label for="js">JAVA SCRIPT</label><br><br>
         </fieldset>
-               <form>
-        <br>
-            
-     <a href="message.html">Submit</a>
+       
+       
+    </form>
+    <br>
+    <a href="message.html">Submit</a>
+
    
+
+
+
 </body>
 
 </html>
